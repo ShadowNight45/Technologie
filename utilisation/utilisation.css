@@ -1,0 +1,22 @@
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Couvre toute la zone du conteneur avec la vidéo */
+    position: fixed; /* Position fixe pour rester en arrière-plan */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place la vidéo en arrière-plan derrière le contenu */
+}
+ul{
+    color:red;
+    position: absolute;
+    top: 700px;
+    left:50px;
+}
+li{
+    font-size: 25px;
+    color:white;
+}
+a{
+    color: whitesmoke;
+}
